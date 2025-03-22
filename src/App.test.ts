@@ -36,7 +36,6 @@ describe('Flexbox', () => {
 
     it('Рисуется нужное изображение', async () => {
         const image = await page.screenshot();
-
         expect(image).toMatchImageSnapshot();
     });
 });
